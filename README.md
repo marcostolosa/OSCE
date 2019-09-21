@@ -36,8 +36,8 @@ I would like to include but not be limited to : Vannila EIP overwrite, SEH + egg
 2. Easy File Sharing Web Server SEH overflow + egghunter
 3. Vulnserver GMON SEH overflow + egghunter
 4. Xitami Web Server SEH overflow + egghunter + partial SEH overwrite
-5. Millenium MP3 studio SEH overflow 
-
+5. Millenium MP3 studio SEH overflow [local]
+6. DeviceViewer Sricam SEH overflow [local]
 ----
 ## Unicode Buffer Overflows
 
