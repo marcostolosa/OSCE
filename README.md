@@ -52,11 +52,8 @@ I would like to include but not be limited to : Vannila EIP overwrite, SEH + egg
 ## 0day discoveries
 
 1. DeviceViewer Sricam 3.12.0.1 SEH overflow [cve] [0day]
-  ```
-  Affected: Password fields when logging in and out
-  Write-up:
-  CVE: 
-  ```
+2. DeviceViewer Sricam 3.12.0.1 DOS buffer overflow [0day]
+3. DeviceViewer Sricam 3.12.0.1 DOS buffer overflow [0day]
  
 ----
 ## Metasploit modules
