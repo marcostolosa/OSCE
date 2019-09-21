@@ -13,8 +13,8 @@ I am writing 50 POC's for various exploits, some which include bypassing advance
 Current status : 12/100
 Metasploit modules: 0
 Metasploit contributions : 0
-0day discoveries : 0
-Assigned CVE's : 0
+0day discoveries : 2
+Assigned CVE's : 2
 ```
 
 I would like to include but not be limited to : Vannila EIP overwrite, SEH + egghunters, ASLR/DEP/NX , SafeSeh, Stack cookies, unicode restrictions, and much more...
@@ -37,7 +37,7 @@ I would like to include but not be limited to : Vannila EIP overwrite, SEH + egg
 3. Vulnserver GMON SEH overflow + egghunter
 4. Xitami Web Server 2.5 SEH overflow + egghunter + partial SEH overwrite
 5. Millenium MP3 Studio 2.0 SEH overflow [local]
-6. DeviceViewer Sricam 3.12.0.1 SEH overflow [local]
+6. DeviceViewer Sricam 3.12.0.1 SEH overflow [local] [cve]
 ----
 ## Unicode Buffer Overflows
 
