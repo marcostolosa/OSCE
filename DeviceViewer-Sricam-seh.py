@@ -1,5 +1,18 @@
 from struct import *
 
+# Date : 9/20/2019
+#
+# Exploit summary :
+#   A local standard SEH overflow exists in both password field when logging in and exiting the application
+#   on XP, an attacker can abuse this SEH overflow to obtain code execution and a local shell, which 
+#   potentionally can result in privesc if the circustances are right.
+#
+#   Vendor application : DeviceViewer 3.12.0.1
+#       http://download.sricam.com/Manual/DeviceViewer.exe
+#   Affected locations : both password field when logging in and out of the application.
+#   Tested on: Windows 7 sp1
+#
+
 malicious_file = "evil.txt"
 
 #  Exception Offset:	41414141
