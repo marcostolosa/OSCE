@@ -10,7 +10,7 @@ Eventually I will start hunting for 0day in software that relates to these topic
 I am writing 50 POC's for various exploits, some which include bypassing advanced memory protections for educational purposes.
 
 ```
-Current status : 15/100
+Current status : 16/100
 Metasploit modules: 0
 Metasploit contributions : 0
 0day discoveries : 4
@@ -37,6 +37,7 @@ I would like to include but not be limited to : Vannila EIP overwrite, SEH + egg
 3. Vulnserver GMON SEH overflow + egghunter
 4. Xitami Web Server 2.5 SEH overflow + egghunter + partial SEH overwrite
 5. Millenium MP3 Studio 2.0 SEH overflow [local]
+6. File sharing wizard SEH overflow
 ----
 ## Unicode Buffer Overflows
 
