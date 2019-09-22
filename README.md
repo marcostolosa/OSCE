@@ -13,7 +13,7 @@ I am writing 50 POC's for various exploits, some which include bypassing advance
 Current status : 17/100
 Metasploit modules: 0
 Metasploit contributions : 0
-0day discoveries : 4
+0day discoveries : 5
 Assigned CVE's : 
 ```
 
