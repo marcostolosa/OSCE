@@ -37,7 +37,6 @@ I would like to include but not be limited to : Vannila EIP overwrite, SEH + egg
 3. Vulnserver GMON SEH overflow + egghunter
 4. Xitami Web Server 2.5 SEH overflow + egghunter + partial SEH overwrite
 5. Millenium MP3 Studio 2.0 SEH overflow [local]
-6. File sharing wizard SEH overflow
 ----
 ## Unicode Buffer Overflows
 
@@ -56,6 +55,7 @@ I would like to include but not be limited to : Vannila EIP overwrite, SEH + egg
 2. DeviceViewer Sricam 3.12x DOS buffer overflow 
 3. DeviceViewer Sricam 3.12x DOS buffer ovlerflow 
 4. Easy File Sharing Web Server 7.2 local SEH overflow
+5. File sharing wizard SEH overflow
  
 ----
 ## Metasploit modules
