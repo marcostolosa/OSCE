@@ -1,3 +1,5 @@
+#!/usr/bin/python
+
 # Exploit Title: DeviceViewer 3.12.0.1 - 'creating user' DOS buffer overflow
 # Date: 9/23/2019
 # Exploit Author: Nu11pwn
