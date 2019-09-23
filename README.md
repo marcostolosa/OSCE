@@ -36,7 +36,7 @@ I would like to include but not be limited to : Vannila EIP overwrite, SEH + egg
 4. Xitami Web Server 2.5 SEH overflow + egghunter + partial SEH overwrite
 5. Millenium MP3 Studio 2.0 SEH overflow [local]
 ----
-## Unicode Buffer Overflows
+## Alphanumeric Buffer Overflows
 
 ----
 ## ROP to bypass Data Exectuion Prevention (DEP)
