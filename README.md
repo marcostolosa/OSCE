@@ -1,10 +1,8 @@
 ## Buffer overflow Windows exploit development practice - 50 proof of concepts
 
-I am following the `Windows Exploit Development Tutorial Series` as a guide for exploit development progression from https://www.fuzzysecurity.com/tutorials.html
+I challenged myself to write 50 proof of concepts from scratch for pre-existing exploits, I see this as good practice.
 
-First I learn how to exploit a certain type of protections or restriction, then read lot's of exploits and writeups about it, then search exploit-db for software that is vulnerable to that specific attack vector, then I test my new knowledge against said software. 
-
-Eventually I will start hunting for 0day in software that relates to these topics.
+After practicing writing existing exploits, I am also testing new software and hunting for 0days that I can publish and obtain CVEs for.
 
 ----
 I am writing 50 POC's for various exploits, some which include bypassing advanced memory protections for educational purposes.
