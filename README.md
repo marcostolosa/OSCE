@@ -7,6 +7,9 @@ After practicing writing existing exploits, I am also testing new software and h
 ----
 I am writing 50 POC's for various exploits, some which include bypassing advanced memory protections for educational purposes.
 
+Q. Doesn't every hacker have a personal secret arsenal of 0days?
+A. Yes, but these are for "security research" and I disclose them properly.
+
 ```
 Current status : 17/50
 Metasploit modules: 0
