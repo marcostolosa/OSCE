@@ -12,7 +12,7 @@ Current status : 17/50
 Metasploit modules: 0
 Metasploit contributions : 0
 0day discoveries : 5
-Assigned CVE's : 
+Assigned CVE's : 1
 ```
 
 I would like to include but not be limited to : Vannila EIP overwrite, SEH + egghunters, ASLR/DEP/NX , SafeSeh, Stack cookies, unicode restrictions, and much more...
@@ -47,7 +47,7 @@ I would like to include but not be limited to : Vannila EIP overwrite, SEH + egg
 ## Bypassing ASLR
 
 ----
-## 0day discoveries - awaiting CVE assignments
+## 0day discoveries - some awaiting CVE assignments
 
 1. DeviceViewer Sricam 3.12.0.1 SEH overflow
 2. DeviceViewer Sricam 3.12x local DOS buffer overflow 
