@@ -35,16 +35,14 @@ I would like to include but not be limited to : Vannila EIP overwrite, SEH + egg
 3. Vulnserver GMON SEH overflow + egghunter
 4. Xitami Web Server 2.5 SEH overflow + egghunter + partial SEH overwrite
 5. Millenium MP3 Studio 2.0 SEH overflow [local]
+
 ----
 ## Alphanumeric Buffer Overflows
-
+ ### Unicode restrictions
 ----
 ## ROP to bypass Data Exectuion Prevention (DEP)
 
 1. Vulnserver TRUN + DEP enabled + ROP chain - VirtualProtect() method
-
-----
-## Bypassing ASLR
 
 ----
 ## 0day discoveries - some awaiting CVE assignments
