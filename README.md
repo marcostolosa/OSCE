@@ -47,7 +47,7 @@ I would like to include but not be limited to : Vannila EIP overwrite, SEH + egg
 ## Bypassing ASLR
 
 ----
-## 0day discoveries
+## 0day discoveries - awaiting CVE assignments
 
 1. DeviceViewer Sricam 3.12.0.1 SEH overflow
 2. DeviceViewer Sricam 3.12x local DOS buffer overflow 
