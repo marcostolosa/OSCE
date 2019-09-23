@@ -45,7 +45,7 @@ I would like to include but not be limited to : Vannila EIP overwrite, SEH + egg
 1. Vulnserver TRUN + DEP enabled + ROP chain - VirtualProtect() method
 
 ----
-## 0day discoveries - some awaiting CVE assignments
+## 0day discoveries
 
 1. DeviceViewer Sricam 3.12.0.1 SEH overflow
 2. DeviceViewer Sricam 3.12x local DOS buffer overflow [1] 
