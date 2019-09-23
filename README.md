@@ -51,7 +51,7 @@ I would like to include but not be limited to : Vannila EIP overwrite, SEH + egg
 2. DeviceViewer Sricam 3.12x local DOS buffer overflow [1] 
 3. DeviceViewer Sricam 3.12x local DOS buffer ovlerflow [2]
 4. Easy File Sharing Web Server 7.2 SEH overflow [local]
-5. File sharing wizard SEH overflow [**CVE-2019-16724**]
+5. File sharing wizard SEH overflow [**CVE-2019-16724**](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-16724)
  
 ----
 ## Metasploit modules
