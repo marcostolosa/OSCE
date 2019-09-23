@@ -8,11 +8,6 @@ After practicing writing existing exploits, I am also testing new software and h
 I am writing 50 POC's for various exploits, some which include bypassing advanced memory protections for educational purposes.
 
 ```
-Q. Doesn't every hacker have a personal secret arsenal of 0days?
-A. Yes, but these are for "security research" and I disclose them properly.
-```
-
-```
 Current status : 17/50
 Metasploit modules: 0
 Metasploit contributions : 0
@@ -58,7 +53,7 @@ I would like to include but not be limited to : Vannila EIP overwrite, SEH + egg
 2. DeviceViewer Sricam 3.12x local DOS buffer overflow 
 3. DeviceViewer Sricam 3.12x local DOS buffer ovlerflow 
 4. Easy File Sharing Web Server 7.2 SEH overflow
-5. File sharing wizard SEH overflow
+5. File sharing wizard SEH overflow [**CVE-2019-16724**]
  
 ----
 ## Metasploit modules
