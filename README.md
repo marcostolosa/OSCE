@@ -51,6 +51,9 @@ I would like to include but not be limited to : Vannila EIP overwrite, SEH + egg
 ## Vanilla Heap spraying
 
 ----
+## Use-After-Free (UAF) Heap spraying
+
+----
 ## 0day discoveries / disclosures
 
 1. [**Not public**] DeviceViewer Sricam 3.12.0.1 SEH overflow
