@@ -43,7 +43,7 @@ I would like to include but not be limited to : Vannila EIP overwrite, SEH + egg
    **Hex restrictions:**
 
 ----
-## ROP to bypass Data Exectuion Prevention (DEP)
+## ROP to bypass Data Execution Prevention (DEP)
 
 1. Vulnserver TRUN + DEP enabled + ROP chain - VirtualProtect() method
 
