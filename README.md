@@ -39,15 +39,16 @@ I would like to include but not be limited to : Vannila EIP overwrite, SEH + egg
 ----
 ## Alphanumeric Buffer Overflows
   ### Unicode restrictions:
+
 ----
 ## ROP to bypass Data Exectuion Prevention (DEP)
 
 1. Vulnserver TRUN + DEP enabled + ROP chain - VirtualProtect() method
 
-
-## Vanilla Heap spraying
 ----
+## Vanilla Heap spraying
 
+----
 ## 0day discoveries / disclosures
 
 1. DeviceViewer Sricam 3.12.0.1 SEH overflow
