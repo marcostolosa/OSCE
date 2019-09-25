@@ -37,7 +37,7 @@ I would like to include but not be limited to : Vannila EIP overwrite, SEH + egg
 5. Millenium MP3 Studio 2.0 SEH overflow
 
 ----
-## Alphanumeric Buffer Overflows
+## Alphanumeric restrictions
    **Unicode restrictions:**
    **Hex restrictions:**
 
