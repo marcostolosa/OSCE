@@ -44,7 +44,10 @@ I would like to include but not be limited to : Vannila EIP overwrite, SEH + egg
 
 1. Vulnserver TRUN + DEP enabled + ROP chain - VirtualProtect() method
 
+
+## Vanilla Heap spraying
 ----
+
 ## 0day discoveries / disclosures
 
 1. DeviceViewer Sricam 3.12.0.1 SEH overflow
