@@ -39,6 +39,7 @@ I would like to include but not be limited to : Vannila EIP overwrite, SEH + egg
 ----
 ## Alphanumeric Buffer Overflows
    **Unicode restrictions:**
+   **Hex restrictions:**
 
 ----
 ## ROP to bypass Data Exectuion Prevention (DEP)
