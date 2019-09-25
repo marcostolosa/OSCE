@@ -5,7 +5,7 @@ I challenged myself to write 50 proof of concepts from scratch for pre-existing 
 After practicing writing existing exploits, I am also testing new software and hunting for 0days that I can publish and obtain CVEs for.
 
 ----
-I am writing 50 POC's for various exploits, some which include bypassing advanced memory protections for educational purposes.
+I am writing 50 POC's for various exploits for educational purposes.
 
 ```
 Current status : 17/50
