@@ -39,6 +39,7 @@ I would like to include but not be limited to : Vannila EIP overwrite, SEH + egg
 ----
 ## Alphanumeric restrictions
    **Unicode restrictions:**
+   
    **Hex restrictions:**
 
 ----
