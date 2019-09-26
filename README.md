@@ -8,7 +8,7 @@ After practicing writing existing exploits, I am also testing new software and h
 I am writing 50 POC's for various exploits for educational purposes.
 
 ```
-Current status : 17/50
+Current status : 18/50
 Metasploit modules: 0
 Metasploit contributions : 0
 0day discoveries : 5
@@ -29,9 +29,11 @@ I would like to include but not be limited to : Vannila EIP overwrite, SEH + egg
 
 ----
 ## Structured Exception Handler (SEH) Overwrite + egghunter
+
   **Standard:**
   1. Easy File Sharing Web Server SEH overflow
   2. Millenium MP3 Studio 2.0 SEH overflow
+  3. Free MP3 CD Ripper 2.6 SEH overflow
   
   **With egghunter:**
   1. Easy File Sharing Web Server SEH overflow + egghunter
