@@ -13,7 +13,7 @@ from struct import pack
 # NSEH - "\xEB\x08\x90\x90" - JMP short forward 8            #
 # BAD CHARS - "\x00\x0a\x0d\x0e"                             #
 # PAYLOAD - pop calc.exe                                     #
-#-------------------------------------------------------------
+#------------------------------------------------------------#
 #   Author : x00pwn                                          #
 #   Date: 9/26/2019                                          #
 #   Victim system: Windows 7 pro                             #
