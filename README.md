@@ -34,6 +34,7 @@ I would like to include but not be limited to : Vannila EIP overwrite, SEH + egg
   1. Easy File Sharing Web Server SEH overflow
   2. Millenium MP3 Studio 2.0 SEH overflow
   3. Free MP3 CD Ripper 2.6 SEH overflow
+  4. RGUI i386 3.4.4 local SEH overflow
   
   **With egghunter:**
   1. Easy File Sharing Web Server SEH overflow + egghunter
