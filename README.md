@@ -43,10 +43,12 @@ I would like to include but not be limited to : Vannila EIP overwrite, SEH + egg
   3. Xitami Web Server 2.5 SEH overflow + egghunter + partial SEH overwrite
 
 ----
-## Alphanumeric restrictions
+## Character restrictions
    **Unicode restrictions:**
    
    **Hex restrictions:**
+   
+   **Alphanumeric restrictions**
 
 ----
 ## ROP to bypass Data Execution Prevention (DEP)
