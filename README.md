@@ -46,8 +46,6 @@ I would like to include but not be limited to : Vannila EIP overwrite, SEH + egg
 ## Character restrictions
    **Unicode restrictions:**
    
-   **Hex restrictions:**
-   
    **Alphanumeric restrictions:**
 
 ----
