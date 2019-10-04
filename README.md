@@ -27,6 +27,7 @@ I would like to include but not be limited to : Vannila EIP overwrite, SEH + egg
 4. Brainpan VulnHub box vanilla EIP overflow
 5. DoStackBufferOverflowGood vanilla EIP overflow
 6. MiniShare 1.4.1 vanilla EIP overflow
+7. ASX to MP3 converter 3.1.2.1 vanilla EIP overflow
 
 ----
 ## Structured Exception Handler (SEH) Overwrite + egghunter
