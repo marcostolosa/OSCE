@@ -47,10 +47,11 @@ I would like to include but not be limited to : Vannila EIP overwrite, SEH + egg
 ----
 ## Character restrictions
    **Unicode restrictions:**
-   1. Vulnserver LTER vanilla EIP overflow + unicode
    
-   **Alphanumeric restrictions:**
-
+   **Alphanumeric restrictions:*
+   
+      1. Vulnserver LTER vanilla EIP overflow + alphanumeric bypass
+      
 ----
 ## ROP to bypass Data Execution Prevention (DEP)
 
