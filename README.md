@@ -57,7 +57,7 @@ I would like to include but not be limited to : Vannila EIP overwrite, SEH + egg
 2. ASX to MP3 converter 3.1.2.1 + DEP enabled + ROP chain - VirtualProtect() method
 
 ----
-## Bypassing ASLR - Patrial EIP overwrite
+## Bypassing ASLR - Partial EIP overwrite
 
 ----
 ## Vanilla Heap spraying
