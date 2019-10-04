@@ -9,7 +9,7 @@ On top of that, I also like to fuzz said targeted software, and I've found a cou
 I am writing 50 POC's for various exploits for educational purposes.
 
 ```
-Current status : 20/50
+Current status : 21/50
 Metasploit modules: 0
 Metasploit contributions : 0
 0day discoveries : 5
@@ -53,6 +53,7 @@ I would like to include but not be limited to : Vannila EIP overwrite, SEH + egg
 ## ROP to bypass Data Execution Prevention (DEP)
 
 1. Vulnserver TRUN + DEP enabled + ROP chain - VirtualProtect() method
+2. ASXtoMP3 vanilla local + DEP enabled + ROP chain - VirtualProtect() method
 
 ----
 ## Bypassing ASLR - Patrial EIP overwrite
