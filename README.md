@@ -50,7 +50,7 @@ I would like to include but not be limited to : Vannila EIP overwrite, SEH + egg
    
    **Alphanumeric restrictions:**
    
-      1. Vulnserver LTER vanilla EIP overflow + alphanumeric bypass
+  1. Vulnserver LTER vanilla EIP overflow + alphanumeric bypass
       
 ----
 ## ROP to bypass Data Execution Prevention (DEP)
