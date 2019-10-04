@@ -9,7 +9,7 @@ On top of that, I also like to fuzz said targeted software, and I've found a cou
 I am writing 50 POC's for various exploits for educational purposes.
 
 ```
-Current status : 21/50
+Current status : 22/50
 Metasploit modules: 0
 Metasploit contributions : 0
 0day discoveries : 5
@@ -47,6 +47,7 @@ I would like to include but not be limited to : Vannila EIP overwrite, SEH + egg
 ----
 ## Character restrictions
    **Unicode restrictions:**
+   1. Vulnserver LTER + unicode - calc.exe
    
    **Alphanumeric restrictions:**
 
