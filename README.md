@@ -48,7 +48,7 @@ I would like to include but not be limited to : Vannila EIP overwrite, SEH + egg
 ## Character restrictions
    **Unicode restrictions:**
    
-   **Alphanumeric restrictions:*
+   **Alphanumeric restrictions:**
    
       1. Vulnserver LTER vanilla EIP overflow + alphanumeric bypass
       
