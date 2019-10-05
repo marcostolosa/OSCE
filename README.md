@@ -78,7 +78,6 @@ I would like to include but not be limited to : Vannila EIP overwrite, SEH + egg
 10 more undisclosed, need to add them
 
 ----
-## Exploits re-written in C for the "why not" reasoning
-
+## Exploits re-written in C
 ----
 ## Metasploit modules
