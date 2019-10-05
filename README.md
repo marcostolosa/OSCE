@@ -12,8 +12,8 @@ I am writing 50 POC's for various exploits for educational purposes.
 Current status : 23/50
 Metasploit modules: 0
 Metasploit contributions : 0
-0day discoveries : 5
-Assigned CVE's : 1
+0day discoveries : 6
+Assigned CVE's : 2
 ```
 
 I would like to include but not be limited to : Vannila EIP overwrite, SEH + egghunters, ASLR/DEP/NX , SafeSeh, Stack cookies, unicode restrictions, and much more...
