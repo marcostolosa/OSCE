@@ -47,10 +47,9 @@ I would like to include but not be limited to : Vannila EIP overwrite, SEH + egg
 ----
 ## Character restrictions
    **Unicode restrictions:**
-  1. GoldWave local SEH + unicode bypass + venterian alignment 
+  1. GoldWave 5.70 local SEH + unicode bypass + venterian alignment 
    
    **Alphanumeric restrictions:**
-   
   1. Vulnserver LTER vanilla EIP overflow + alphanumeric bypass
       
 ----
