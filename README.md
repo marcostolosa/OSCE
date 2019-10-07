@@ -10,7 +10,7 @@ I am writing 50 POC's for various exploits for educational purposes.
 
 ```
 Current status : 23/50
-Metasploit modules: 0
+Metasploit modules: 1
 Metasploit contributions : 0
 0day discoveries : 6
 Assigned CVE's : 2
