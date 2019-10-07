@@ -82,3 +82,5 @@ I would like to include but not be limited to : Vannila EIP overwrite, SEH + egg
 ## Exploits re-written in C
 ----
 ## Metasploit modules
+
+ [**CVE-2019-16724**](https://github.com/rapid7/metasploit-framework/pull/12400) - windows/http/file_sharing_wizard_seh : Someone else wrote and contributed this MSF module based on my exploit.
