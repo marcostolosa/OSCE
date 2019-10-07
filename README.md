@@ -80,6 +80,7 @@ I would like to include but not be limited to : Vannila EIP overwrite, SEH + egg
 
 ----
 ## Exploits re-written in C
+*I thought it would be fun to write some exploits in C to sharpen my C socket programming skills.*
 ----
 ## Metasploit modules
 
