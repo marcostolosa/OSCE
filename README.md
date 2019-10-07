@@ -1,9 +1,9 @@
 ## Buffer overflow Windows exploit development practice - 50 proof of concepts
 
 **What this repo is:**
-I challenged myself to write 50 proof of concepts from scratch for pre-existing exploits, I see this as good practice.
-I am going on exploit-db, searching for exploit types, NOT looking at the existing exploit, and writing a proof of concept for that exploit that exists in some software.
-On top of that, I also like to fuzz said targeted software, and I've found a couple other exploits that could technically be counted as "0days".
+After obtaining my OSCP, as preparation for the OSCE and OSEE certification I challenged myself to re-write 50 proof of concepts for pre-existing exploits in software, all of which are Windows based. 
+
+Secondly, this repo contains a handful of 0 days and CVE publications I have discovered and contributed while searching for new vulnerabilities in software.
 
 ----
 I am writing 50 POC's for various exploits for educational purposes.
