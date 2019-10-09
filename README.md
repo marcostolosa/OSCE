@@ -9,7 +9,7 @@ Secondly, this repo contains a handful of 0 days and CVE publications I have dis
 I am writing 50 POC's for various exploits for educational purposes.
 
 ```
-Exploits written : 23/50
+Exploits written : 24/50
 Metasploit modules: 1
 Metasploit contributions : 0
 0day discoveries : 6
@@ -28,6 +28,7 @@ I would like to include but not be limited to : Vannila EIP overwrite, SEH + egg
 5. DoStackBufferOverflowGood vanilla EIP overflow
 6. MiniShare 1.4.1 vanilla EIP overflow
 7. ASX to MP3 converter 3.1.2.1 vanilla EIP overflow
+8. VUPlayer 2.49 .wax vanilla EIP overflow
 
 ----
 ## Structured Exception Handler (SEH) Overwrite + egghunter
