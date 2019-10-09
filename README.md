@@ -87,7 +87,7 @@ I would like to include but not be limited to : Vannila EIP overwrite, SEH + egg
 ----
 ## Metasploit modules
    **Someone else contributing my exploits:**
-   1. [*windows/http/file_sharing_wizard_seh*](https://github.com/rapid7/metasploit-framework/pull/12400)
+   1. [*windows/http/file_sharing_wizard_seh*](https://www.rapid7.com/db/modules/exploit/windows/http/file_sharing_wizard_seh)
    
    **Modules contributed by me:**
    
