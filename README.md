@@ -58,7 +58,7 @@ I would like to include but not be limited to : Vannila EIP overwrite, SEH + egg
 
 1. Vulnserver TRUN + DEP enabled + ROP chain - VirtualProtect() method
 2. ASX to MP3 converter 3.1.2.1 + DEP enabled + ROP chain - VirtualProtect() method
-
+3. VUPlayer 2.49 + DEP enabled + ROP chain - VirtualProtect() method
 ----
 ## Bypassing ASLR - Partial EIP overwrite
 
