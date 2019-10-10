@@ -9,7 +9,7 @@ Secondly, this repo contains a handful of 0 days and CVE publications I have dis
 I am writing 50 POC's for various exploits for educational purposes.
 
 ```
-Exploits written : 25/50
+Exploits written : 26/50
 Metasploit modules: 1
 Metasploit contributions : 0
 0day discoveries : 6
