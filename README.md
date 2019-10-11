@@ -77,13 +77,6 @@ I would like to include but not be limited to : Vannila EIP overwrite, SEH + egg
 4. [**CVE-2019-16724**](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-16724) File Sharing Wizard remote SEH overflow
 5. [**CVE-2019-17181**](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-17181) IntraSrv webserver 1.0 SEH overflow
 
-10 more undisclosed, need to add them
-
-----
-## Exploits re-written in C
-
-*I thought it would be fun to write some exploits in C to sharpen my C socket programming skills.*
-
 ----
 ## Metasploit modules
    **Someone else contributing my exploits:**
