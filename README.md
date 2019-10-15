@@ -7,7 +7,7 @@ Secondly, this repo contains a handful of 0 days and CVE publications I have dis
 
 **An Introduction to Windows exploit development free download**
 
-I am writing this book as an introduction to Windows exploit development to show everyone how to properly pull off what I am attempting to do in this repo.
+I am writing this book as an introductory guide to Windows exploit development to show everyone how to properly pull off what I am attempting to do in this repo. I dislike the fact that there are just not many resources on the internet for this.
 
 ----
 I am writing 50 POC's for various exploits for educational purposes.
