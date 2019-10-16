@@ -9,7 +9,7 @@ Secondly, this repo contains a handful of 0 days and CVE publications I have dis
 
 I am writing this book as an introductory guide to Windows exploit development to show everyone how to properly pull off what I am attempting to do in this repo. I dislike the fact that there are just not many resources on the internet for this.
 
-Welcome to the early 2000's
+Welcome to the early 2000's :)
 
 ----
 I am writing 50 POC's for various exploits for educational purposes.
