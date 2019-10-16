@@ -46,14 +46,14 @@ I would like to include but not be limited to : Vannila EIP overwrite, SEH + egg
   4. RGUI i386 3.4.4 local SEH overflow
   5. Audiograbber 1.83 local SEH overflow
   
-  **With egghunter:** [http://www.hick.org/code/skape/papers/egghunt-shellcode.pdf](2004 whitepaper)
+  **With egghunter:** [2004 whitepaper](http://www.hick.org/code/skape/papers/egghunt-shellcode.pdf)
   1. Easy File Sharing Web Server SEH overflow + egghunter
   2. Vulnserver GMON SEH overflow + egghunter
   3. Xitami Web Server 2.5 SEH overflow + egghunter + partial SEH overwrite
 
 ----
 ## Character restrictions
-   **Unicode restrictions:** [https://www.helpnetsecurity.com/dl/articles/unicodebo.pdf](2002 whitepaper)
+   **Unicode restrictions:** [2002 whitepaper](https://www.helpnetsecurity.com/dl/articles/unicodebo.pdf)
   1. GoldWave 5.70 local SEH + unicode bypass + venterian alignment 
    
    **Alphanumeric restrictions:**
