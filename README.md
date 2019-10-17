@@ -1,13 +1,9 @@
 ## Buffer overflow Windows exploit development practice - 50 proof of concepts
 
 **What this repo is:**
-After obtaining my OSCP, as preparation for my upcoming OSCE certification I challenged myself to re-write 50 proof of concepts for pre-existing exploits in software, all of which are Windows based. 
+After obtaining my OSCP, as preparation for my upcoming OSCE certification I challenged myself to re-write 50 proof of concepts for pre-existing exploits in software, all of which are Windows based. NO looking at the original POC :persevere: no cheating
 
 Secondly, this repo contains a handful of 0 days and CVE publications I have discovered and contributed while searching for new vulnerabilities in software.
-
-**An Introduction to Windows exploit development free download**
-
-I am writing this book as an introductory guide to Windows exploit development to show everyone how to properly pull off what I am attempting to do in this repo. I dislike the fact that there are just not many resources on the internet for this.
 
 Welcome to the early 2000's :)
 
