@@ -27,6 +27,7 @@ Invalid exception stack at 0000000046366a46
 
 [*] Exact match at offset 4188
 
+# working on importing mona.py into WinDBG 
 4. modules
  Log data, item 4
  Address=0BADF00D
