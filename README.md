@@ -13,7 +13,7 @@ Welcome to the early 2000's :)
 I am writing 50 POC's for various exploits for educational purposes.
 
 ```
-Exploits written : 26/50
+Exploits written : 27/50
 Metasploit modules: 1
 Metasploit contributions : 0
 0day discoveries : 6
@@ -43,6 +43,7 @@ I would like to include but not be limited to : Vannila EIP overwrite, SEH + egg
   3. Free MP3 CD Ripper 2.6 SEH overflow
   4. RGUI i386 3.4.4 local SEH overflow
   5. Audiograbber 1.83 local SEH overflow
+  6. 10-Strike Network Inventory Explorer SEH overflow
   
   **With egghunter:** [2004 whitepaper](http://www.hick.org/code/skape/papers/egghunt-shellcode.pdf)
   1. Easy File Sharing Web Server SEH overflow + egghunter
