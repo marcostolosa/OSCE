@@ -2,6 +2,11 @@
 
 RSP MP3 Player ActiveX browser EIP heap spray exploit
 
+-- Like 80% of this code is taken from the fuzzysecurity tutorial part 8,
+   As I further learn more heap overflows/spraying, I will end up 
+   completely writing the exploits from scratch, like I do with the other python exploits
+   This is the first of its kind in this repo, .html / JS exploit.
+
 - TESTED ON:
 - OS: Windows XP
 - Browser: IE6, IE7
@@ -12,7 +17,7 @@ Exception Code: ACCESS_VIOLATION
 Disasm: 1B92FB7	REP MOVS DWORD PTR ES:[EDI],DWORD PTR [ESI]	(rspov.dll)
 
 Seh Chain:
---------------------------------------------------
+|--------------------------------------------------
 1 	41414141 	
 
 Called From                   Returns To                    
@@ -20,7 +25,7 @@ Called From                   Returns To
 rspov.1B92FB7                 41414141                      
 
 Registers:
---------------------------------------------------
+|--------------------------------------------------
 EIP 01B92FB7
 EAX 00003815
 EBX 00000001
@@ -32,7 +37,7 @@ EBP 0272FF9C -> Asc: AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 ESP 02716E90 -> 00000000
 
 Stack Dump:
---------------------------------------------------
+|--------------------------------------------------
 2716E90 00 00 00 00 28 C2 1A 00 01 00 00 00 00 00 00 00  [................]
 2716EA0 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  [................]
 2716EB0 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  [................]
