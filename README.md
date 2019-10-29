@@ -69,7 +69,9 @@ I would like to include but not be limited to : Vannila EIP overwrite, SEH + egg
 ## Bypassing ASLR - Partial EIP overwrite
 
 ----
-## Vanilla Heap spraying
+## Browser EIP Heap spraying
+
+1. RSP MP3 Player - OCX ActiveX EIP heap spray
 
 ----
 ## Use-After-Free (UAF) Heap spraying
