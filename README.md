@@ -51,7 +51,7 @@ I would like to include but not be limited to : Vannila EIP overwrite, SEH + egg
   3. Xitami Web Server 2.5 SEH overflow + egghunter + partial SEH overwrite
 
 ----
-## Character restrictions
+## Overflow Character restrictions
    **Unicode restrictions:** [2002 whitepaper](https://www.helpnetsecurity.com/dl/articles/unicodebo.pdf)
   1. GoldWave 5.70 local SEH + unicode bypass + Venetian alignment 
   2. CodeBlocks 17.12 local SEH + unicode bypass + Venetian alignment
