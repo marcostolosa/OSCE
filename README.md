@@ -77,6 +77,9 @@ I would like to include but not be limited to : Vannila EIP overwrite, SEH + egg
 ## Use-After-Free (UAF) Heap spraying
 
 ----
+## Bypassing EMET (Enhanced Mitigation Experience Toolkit)
+
+----
 ## 0day discoveries / disclosures
 
 1. [**exploit-db**](https://www.exploit-db.com/exploits/47410) DeviceViewer Sricam 3.12x local DOS buffer overflow
