@@ -77,7 +77,7 @@ I would like to include but not be limited to : Vannila EIP overwrite, SEH + egg
 ## Use-After-Free (UAF) Heap spraying
 
 ----
-## Bypassing EMET (Enhanced Mitigation Experience Toolkit)
+## Bypassing EMET 5.2
 
 ----
 ## 0day discoveries / disclosures
